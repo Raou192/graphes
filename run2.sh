@@ -1,3 +1,5 @@
+#tool=dot
+tool=neato
 for a in *.dot;
 do
 	a2="${a%.*}"
